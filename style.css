@@ -1,0 +1,189 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    max-width: 500px;
+    max-height: 400px;
+    padding: 50px
+}
+
+ul {
+    list-style-type: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 22px;
+    font-size: 18px;
+}
+
+a:link {
+    text-decoration: none;
+    color: lightgray;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1F2937;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+}
+
+
+
+.media {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        background-color: #1F2937;
+}
+
+.media .mediacontent {
+        padding: 10px;
+        margin: 154px;
+        gap: 22px;
+        padding: 22px;
+        display: flex;
+        flex-direction: column;
+        margin-right: auto;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: stretch;
+}
+
+.webtitle {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.text {
+    font-size: 18px;
+    color: #E5E7EB;
+    flex-wrap: wrap;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 15px;
+    color: #E5E7EB;
+    font-size: 18px;
+    width: 150px;
+    height: 50px;
+    border-style: none;
+    font-weight: 700;
+
+}
+
+.container-two {
+    display: flex;
+    background-color: white;
+    color: #1F2937;
+    flex-flow: row wrap;
+    padding: 29px;
+}
+
+.title {
+    display: flex;
+    font-size: 36px;
+    font-weight: 900;
+    justify-content: center;
+    flex: 1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagescontainer {
+    display: flex;
+    flex: auto;
+    padding: auto;
+}
+
+.captiontext {
+    display: flex;
+    justify-content: center;
+}
+
+.container-three {
+    display: flex;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    flex-flow: row wrap;
+    padding: 94px;
+    justify-content: center;
+    align-items: center;
+    font-size: 39px;
+    font-style: italic;
+    text-align: justify;
+}
+
+.signature {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.contaner-four {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card   {
+    display: flex;
+    background-color: #3882f6;
+    flex-flow: row;
+    margin: 49px;
+    padding: 49px;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+}
+
+.paragraph {
+    display: flex;
+    flex-flow: column wrap;
+    margin-right: auto;
+    justify-content: flex-start;
+}
+
+.minititle {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+   
+}
+
+#secondbutton {
+    display: flex;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    color: white;
+    border-color: white;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 29px;
+}
